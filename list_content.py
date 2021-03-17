@@ -5,7 +5,7 @@ from datetime import datetime
 from collections import namedtuple
 _ntuple_diskusage = namedtuple('usage', 'total used free')
 
-
+# info -d method
 def info_drive(drive_name):
     logging.basicConfig()
     logger = logging.getLogger()
@@ -21,7 +21,7 @@ def info_drive(drive_name):
     logger.info(datetime.now().strftime("%Y-%m-%dT%H:%M:%S") + f"Number of directories: {directory_number}")
     logger.info(datetime.now().strftime("%Y-%m-%dT%H:%M:%S") + f"Number of files: {files_number}")
 
-
+# method to see how much available, used and free storage is there
 def disk_usage(path):
     """Return disk usage statistics about the given path,
      Returned values is a named tuple with attributes 'total', 'used'
@@ -32,19 +32,8 @@ def disk_usage(path):
     used = (st.f_blocks - st.f_bfree) * st.f_frsize
     return _ntuple_diskusage(total, used, free)
 
-def show_help_message():
-    # Initializing logger
-    logging.basicConfig()
-    logger = logging.getLogger()
-    logger.setLevel(logging.INFO)
-    logger.info("-d <drive name>: To display drive names, Total number of directories, Total number of files, Total "
-                "allocated, used, free storage")
-    logger.info("-l <folder name>: To list all the folders in a given drive with the following info")
-    logger.info("-f <list files>: To list all the files of the machine with file name, file type, file size"
-                "Date/Time Stamp of the file")
-    logger.info("-t <list types of files>: To list all the types of files exist in the machine")
 
-
+# main method
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
