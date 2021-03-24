@@ -1,0 +1,27 @@
+03-24 10:05 root         INFO     2021-03-24T10:05:33 Drive name: /Volumes/Career/
+03-24 10:06 root         INFO     2021-03-24T10:06:00 Drive name: /Volumes/Macintosh HD/
+03-24 10:06 root         INFO     usage(total=250685575168, used=15052558336, free=87736807424)
+03-24 10:09 root         INFO     2021-03-24T10:09:27Number of directories: 919181
+03-24 10:09 root         INFO     2021-03-24T10:09:27Number of files: 5679318
+03-24 11:06 root         INFO     2021-03-24T11:06:51 Drive name: /Volumes/Macintosh HD/
+03-24 11:06 root         INFO     usage(total=250685575168, used=15052558336, free=87682887680)
+03-24 11:10 root         INFO     2021-03-24T11:10:31Number of directories: 919197
+03-24 11:10 root         INFO     2021-03-24T11:10:31Number of files: 5679614
+03-24 11:10 root         INFO     2021-03-24T11:10:49 Drive name: /Volumes/nishant/
+03-24 11:13 root         INFO     2021-03-24T11:13:35 Drive name: /Volumes/nishant/
+03-24 11:13 root         WARNING  [Errno 2] No such file or directory: '/Volumes/nishant/'
+03-24 11:13 root         INFO     None
+03-24 11:13 root         INFO     2021-03-24T11:13:35Number of directories: 0
+03-24 11:13 root         INFO     2021-03-24T11:13:35Number of files: 0
+03-24 11:46 root         INFO     2021-03-24T11:46:33 Drive name: /Volumes/Macintosh HD/
+03-24 11:46 root         INFO     usage(total=250685575168, used=15052558336, free=87638560768)
+03-24 11:50 root         INFO     2021-03-24T11:50:16Number of directories: 919209
+03-24 11:50 root         INFO     2021-03-24T11:50:16Number of files: 5680751
+03-24 12:33 root         INFO     2021-03-24T12:33:02 Drive name: /Volumes/Macintosh HD/
+03-24 12:33 root         INFO     usage(total=250685575168, used=15052558336, free=87662559232)
+03-24 12:37 root         INFO     2021-03-24T12:37:05Number of directories: 919213
+03-24 12:37 root         INFO     2021-03-24T12:37:05Number of files: 5682131
+03-24 12:39 root         INFO     2021-03-24T12:39:33 Drive name: /Volumes/Macintosh HD/
+03-24 12:39 root         INFO     usage(total=250685575168, used=15052558336, free=87662587904)
+03-24 12:43 root         INFO     2021-03-24T12:43:25Number of directories: 919226
+03-24 12:43 root         INFO     2021-03-24T12:43:25Number of files: 5682289
